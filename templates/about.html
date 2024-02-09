@@ -3,11 +3,16 @@
     <head>
         <meta charset="UTF-8">
         <title> My Website - About </title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}" /> 
     </head>
     <body>
+        <header> 
+            <img src ="{{ url_for('static', filename='m4.jpg') }}" alt="BMW M4 CSL"/> 
+        </header>
         <h1> Dejean Whyte </h1>
         <p> My name is Dejean Whyte. I am 21 years old student of the University of the 
             West Indies and I am currently persuing a major in Computer Science. I am also a
-            part time Carry-In Service Techinician for Dell and Website Inventory Manager. </p>
+            part time Carry-In Service Techinician for Dell at Cyber-X Consultants and a Website 
+            Inventory Manager for Supreme Deals on Wheels Auto. </p>
     </body>
 </html>

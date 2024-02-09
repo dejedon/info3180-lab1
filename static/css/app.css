@@ -8,3 +8,33 @@ body {
   max-width: 960px;
   margin: 0 auto;
 }
+
+header
+{
+    background-color: lightblue;
+    text-align: center;
+    padding: 15px;
+    grid-column: span 2;
+}
+
+h1 {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 50px;
+  color:lightblue
+}
+
+p{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 21px;
+  color: black;
+  justify-content: center;
+  font-weight: 200;
+}
+
+img{
+  height: 500px;
+  width: 600px;
+  align-content: center;
+  padding-left: 30%;
+  padding-right: 30%;
+}
